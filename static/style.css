@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+    margin: 0;
+    animation: discoLight 25s linear infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes discoLight {
+    0%   { background: linear-gradient(135deg, #ff4b2b, #ff416c); }
+    20%  { background: linear-gradient(135deg, #6a11cb, #2575fc); }
+    40%  { background: linear-gradient(135deg, #43cea2, #185a9d); }
+    60%  { background: linear-gradient(135deg, #f7971e, #ffd200); }
+    80%  { background: linear-gradient(135deg, #00c6ff, #0072ff); }
+    100% { background: linear-gradient(135deg, #ff4b2b, #ff416c); }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: white;
+}
+
+.container {
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.container-heading {
+    margin: 0;
+}
+
+.heading_font {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 38px;
+}
+
+.description p {
+    color: rgba(255, 255, 255, 0.8);
+    font-style: italic;
+    margin: 5px 0 0;
+}
+
+.ml-container {
+    margin: auto;
+    max-width: 420px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 25px;
+    backdrop-filter: blur(25px);
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+
+.form-input {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 12px;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.25);
+    color: #000;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.form-input::placeholder {
+    color: rgba(0,0,0,0.5);
+}
+
+.my-cta-button {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.my-cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+.my-cta-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.25);
+}
+
+/* Centered Result Styling */
+.result-container {
+    margin-top: 40px;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+
+.riders-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.riders-result {
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
+.result-container {
+    margin-top: 40px;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+
+.riders-result {
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
